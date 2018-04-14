@@ -1,6 +1,7 @@
 .vscode
 app/__pycache__
 app/output
+deploy/
 keys/
 venv/*
 *.pid
