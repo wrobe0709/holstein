@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Will Robertson'
-SITENAME = 'The Holstein House'
+SITENAME = 'Wisconsin Scrapbooking Retreat | The Holstein House'
 SITEURL = ''
 
 PATH = 'content'

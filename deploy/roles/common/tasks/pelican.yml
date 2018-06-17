@@ -1,0 +1,6 @@
+###
+# builds the pelican app
+##
+
+- name: build new pelican app
+  shell: "cd {{ app_dir }}; {{ venv_dir }}/bin/pelican -s {{ app_dir}}/app/pelicanconf.py -o {{ app_dir}}/app/output/ -t {{ app_dir}}/app/theme"
