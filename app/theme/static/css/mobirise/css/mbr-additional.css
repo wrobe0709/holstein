@@ -1627,7 +1627,7 @@ body {
   background-image: url("../../../images/back.jpg");
 }
 .cid-qyjAO9ptzh {
-  padding-top: 90px;
+  padding-top: 45px;
   padding-bottom: 15px;
   background-color: #4f4943;
 }
@@ -1713,8 +1713,8 @@ body {
   text-align: center;
 }
 .cid-qxFndEc6s9 {
-  padding-top: 15px;
-  padding-bottom: 60px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-qxFndEc6s9 .counter-container {
@@ -1732,9 +1732,12 @@ body {
 .cid-qxFndEc6s9 .mbr-text h3 {
   color: #232323;
 }
+.cid-qxFndEc6s9 .mbr-text div {
+  color: #232323;
+}
 .cid-qxFmUG73Xe {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #4f4943;
 }
 .cid-qxFmUG73Xe .testimonial-text {

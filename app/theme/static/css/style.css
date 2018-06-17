@@ -2,6 +2,19 @@
  * Mobirise v4 theme (https://mobirise.com/)
  * Copyright 2017 Mobirise
  */
+.margin-left-15 {
+  margin-left: 15px;
+}
+.padding-left-10 {
+  padding-left: 10px;
+}
+.width-32 {
+  width: 32px;
+}
+.width-130-percent {
+  width: 130%;
+}
+
 section {
   background-color: #eeeeee; }
 
