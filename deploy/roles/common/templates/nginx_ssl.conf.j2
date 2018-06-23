@@ -42,7 +42,7 @@ server {
   error_log             /var/log/nginx/{{ fqdn }}.error.log info;
   keepalive_timeout     5;
 
-  # nginx serve up static files an:qd never send to the WSGI server
+  # nginx serve up static files and never send to the WSGI server
   location /theme {
     autoindex on;
     alias {{ app_dir }}/app/theme/static;
