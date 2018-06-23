@@ -42,20 +42,19 @@ server {
   error_log             /var/log/nginx/{{ fqdn }}.error.log info;
   keepalive_timeout     5;
 
-  # nginx serve up static files and never send to the WSGI server
+  # nginx serve up static files an:qd never send to the WSGI server
   location /theme {
     autoindex on;
     alias {{ app_dir }}/app/theme/static;
   }
 
-
   location / {
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-           proxy_set_header Host $http_host;
-           proxy_redirect off;
-           if (!-f $request_filename) {
-             proxy_pass http://app_server_wsgiapp;
-             break;
+    proxy_set_header Host $http_host;
+    proxy_redirect off;
+    if (!-f $request_filename) {
+      proxy_pass http://app_server_wsgiapp;
+      break;
     } 
   }
 }
